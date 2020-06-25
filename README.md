@@ -1,0 +1,1 @@
+![histogram showing difference in attitude scores in treatment group between time 1 and time 2](histogram.png)
