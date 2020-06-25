@@ -15,7 +15,7 @@ Wilcoxon Signed-Rank Test Example Code:
 #test comparing total scores on attitude scale for treatment group at baseline and follow-up
 wilcox.test(tx_2$a_tot, tx_2$a_tot_2, paired=TRUE)
 
-#calculate effect size, Cliff's delta, for difference between baseline and follow-up in treatment group total score on attitude scale 
+#calculate effect size, Cliff's delta, for difference between baseline and follow-up in tx group, attitude scale 
 cliff.delta(tx_2$a_tot, tx_2$a_tot_2, conf.level=.95, 
             use.unbiased=TRUE, use.normal=FALSE, 
             return.dm=FALSE)
