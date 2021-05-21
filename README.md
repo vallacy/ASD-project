@@ -2,7 +2,7 @@
 ## Factorial ANOVA, One-Way ANOVA, Wilcoxon Signed-Rank Test, and Wilcoxon Rank-Sum Test in R
 
 ### Project Background
-I worked as a statistical consultant with a professor who wanted to see if they could improve their neurotypical students' attitudes toward Autistic students by creating and implementing a lecture about Autism Spectrum Disorder (ASD) for their Introduction to Psychology course. They also wanted to assess whether or not their lecture increased their neurotypical students' knowledge about Autistic people. To do so, they gave students a survey pre- and post-lecture, which measured student attitudes toward and knowledge about Autistic students. These students were the treatment group. The professor also had other professors teaching Introduction to Psychology courses at the same institution during the same semester give their students the same survey, without having the lecture, and they served as the control group.
+I worked with a professor to see if they could improve Intro to Psychology students' attitudes toward and knowledge about Autistic students by presenting a lecture about Autism in their class. They gave students a survey pre- and post-lecture to assess attitudes and knowledge. Other professors teaching Intro to Psychology courses at the same institution during the same semester give their students the same survey, without having the lecture, to serve as a control group.
 
 ### Analyses
 I ran One-Way Within-Subjects ANOVAs, One-Way Between-Subjects ANOVAs, Factorial ANOVAs, Wilcoxon Rank-Sum Tests and Wilcoxon Signed-Rank Tests.
@@ -23,7 +23,7 @@ cliff.delta(tx_2$a_tot, tx_2$a_tot_2, conf.level=.95,
 ~~~
 
 ### Results
-Students in the treatment group had more favorable attitudes toward Autistic students and more knowledge about Autistic people after participating in the lecture. Results of the Wilcoxon Signed-Rank Tests showed statistically significant differences in the ranks between pre- and post-lecture attitudes and knowledge scores among students in the treatment group (those who experienced the lecture).
+Students in the treatment group had more favorable attitudes toward Autistic students and more knowledge about Autistic people after participating in the lecture. Results of the Wilcoxon Signed-Rank Tests showed statistically significant differences in the ranks between pre- and post-lecture attitudes and knowledge scores among students in the treatment group.
 
 ![histogram showing difference in attitude scores in treatment group between time 1 and time 2](histogram.png)
 
